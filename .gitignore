@@ -1,0 +1,41 @@
+# ================== Visual Studio ==================
+## Ignorar carpetas generadas por Visual Studio
+bin/
+obj/
+packages/
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+
+# ================== Build & Publish ==================
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# ================== NuGet ==================
+packages/
+*.nupkg
+
+# ================== User-specific files ==================
+*.user
+*.rsuser
+
+# ================== Logs & Temp ==================
+*.log
+logs/
+temp/
+tmp/
+
+# ================== Supabase / Credentials ==================
+appsettings.json
+*.config
+secrets.json
+
+# ================== Otros ==================
+Thumbs.db
+.DS_Store
+*.bak
+*.tmp
